@@ -711,6 +711,13 @@ body:not(.home-page)::after {
   .planos-page .vm-tags span { padding: .5rem .4rem; }
 }
 
+@media (max-width: 850px) {
+  .personal-page-clean .personal-clean-foto img {
+    object-fit: cover;
+    object-position: center 20%;
+  }
+}
+
 @media (max-width: 420px) {
   .planos-page .plano-destaque-vm-textos { padding-inline: 18px !important; }
   .planos-page .vm-tags { gap: 3px; }
