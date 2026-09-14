@@ -2444,6 +2444,13 @@ body.site-dialog-open {
 }
 
 @media (max-width: 850px) {
+  .personal-page-clean .personal-clean-foto img {
+    object-fit: cover;
+    object-position: center 20%;
+  }
+}
+
+@media (max-width: 850px) {
   .sobre-page-v2 .sobre-v2-foto-wrap,
   .sobre-page-v2 .sobre-v2-metodo-foto {
     width: min(100%, 340px) !important;
